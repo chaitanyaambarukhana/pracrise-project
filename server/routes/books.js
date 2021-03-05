@@ -66,8 +66,7 @@ router.get('/:id', (req, res, next) => {
         //show the edit view
         res.render('books/details', {title: 'Edit Book', books: bookToEdit})
     }
-  })
- 
+  });
 });
 
 // POST - process the information passed from the details form and update the document
